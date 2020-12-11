@@ -1,1 +1,1 @@
-console.log("The LORD GOD almighty");
+(()=>{"use strict";document.getElementById("content").appendChild(function(e,t=""){let n=document.createElement("div");n.classList.add("info-div");let d=document.createElement("h1");d.textContent=e;let l=document.createElement("p");return l.textContent=t,n.appendChild(d),n.appendChild(l),n}("NORP RESTAURANT","Your stop for an exquisite and relaxing meal."))})();
