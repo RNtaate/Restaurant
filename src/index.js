@@ -62,3 +62,5 @@ function displayTabContent(event) {
 for(let i = 0; i < myTabs.length; i += 1) {
   myTabs[i].addEventListener('click', displayTabContent);
 }
+
+myTabs[0].click();
