@@ -8,6 +8,10 @@
   margin: 0;
 }
 
+#content {
+  background-color: black;
+}
+
 .info-div,
 .menu-div,
 .contacts-div {
@@ -19,6 +23,14 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  animation-name: fadeEffect;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes fadeEffect {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
 .info-div {
@@ -116,7 +128,7 @@ li {
 }
 
 .contacts-div {
-  background-image: url('../images/contact_restaurant3.jpg');
+  background-image: url('../images/rest1.jpg');
 }
 
 .contacts-div > h1 {
