@@ -53,20 +53,22 @@
 }
 
 nav {
-  background-color: rgba(47, 79, 79, 0.7);
+  background-color: rgba(47, 79, 79, 0.5);
   display: flex;
+  justify-content: space-between;
   position: fixed;
   top: 0;
   width: 100%;
 }
 
 nav > .tab-button {
-  padding: 20px;
+  padding: 8px;
   border: none;
   outline: none;
   background-color: transparent;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 16px;
+  width: 100%;
   color: white;
 }
 
