@@ -11,7 +11,6 @@
 .info-div,
 .menu-div,
 .contacts-div {
-  background-image: url('../images/restaurant3.jpg');
   background-position: center;
   background-size: cover;
   color: white;
@@ -20,6 +19,10 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.info-div {
+  background-image: url('../images/restaurant3.jpg');
 }
 
 .info-div > h1 {
@@ -63,13 +66,18 @@ button.active {
   background-color: rgba(0, 0, 0, 0.7) !important;
 }
 
+.menu-div {
+  background-image: url('../images/restaurant_menu2.jpg');
+}
+
 .menu-div,
 .contacts-div {
   align-items: center;
 }
 
-.menu-info-div {
-  background-color: rgba(0, 0, 0, 0.6);
+.menu-info-div,
+.contacts-info-div {
+  background-color: rgba(0, 0, 0, 0.8);
   padding: 30px;
   width: 50%;
   max-height: 70vh;
@@ -105,4 +113,27 @@ ul {
 
 li {
   padding: 6px 0;
+}
+
+.contacts-div {
+  background-image: url('../images/contact_restaurant3.jpg');
+}
+
+.contacts-div > h1 {
+  text-shadow: 0 4px 1px rgba(150, 0, 0), 0 10px 50px rgba(255, 0, 0);
+}
+
+.contacts-info-div {
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.contacts-info-div > span {
+  display: block;
+  padding: 15px 0;
+  font-size: 25px;
+}
+
+.contacts-info-div > span > i {
+  margin-right: 20px;
 }
