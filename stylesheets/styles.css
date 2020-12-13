@@ -29,3 +29,27 @@
   color: black;
   background-color: rgba(255, 255, 255, 0.3);
 }
+
+nav {
+  background-color: rgba(241, 241, 241, 1);
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav > .tab-button {
+  padding: 20px;
+  border: none;
+  outline: none;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+nav button:hover {
+  background-color: #ddd;
+}
+
+button.active {
+  background-color: gray !important;
+}
