@@ -14,11 +14,16 @@
   background-size: cover;
   color: white;
   text-align: center;
-  padding: 12em 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .info-div > h1 {
-  font-size: 70px;
+  font-size: 80px;
+  text-shadow: 0 4px 1px rgba(150, 0, 0), 0 10px 50px rgba(255, 0, 0);
+  color: white;
 }
 
 .info-div > p {
@@ -31,7 +36,7 @@
 }
 
 nav {
-  background-color: rgba(241, 241, 241, 1);
+  background-color: rgba(47, 79, 79, 0.7);
   display: flex;
   position: fixed;
   top: 0;
@@ -42,14 +47,16 @@ nav > .tab-button {
   padding: 20px;
   border: none;
   outline: none;
-  background-color: inherit;
+  background-color: transparent;
   cursor: pointer;
+  font-size: 18px;
+  color: white;
 }
 
 nav button:hover {
-  background-color: #ddd;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 button.active {
-  background-color: gray !important;
+  background-color: rgba(0, 0, 0, 0.7);
 }
