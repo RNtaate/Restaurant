@@ -8,7 +8,9 @@
   margin: 0;
 }
 
-.info-div {
+.info-div,
+.menu-div,
+.contacts-div {
   background-image: url('../images/restaurant3.jpg');
   background-position: center;
   background-size: cover;
@@ -59,4 +61,48 @@ nav button:hover {
 
 button.active {
   background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.menu-div,
+.contacts-div {
+  align-items: center;
+}
+
+.menu-info-div {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  width: 50%;
+  max-height: 70vh;
+  overflow: auto;
+  border-radius: 5px;
+}
+
+.menu-info-div::-webkit-scrollbar {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 5px;
+}
+
+.menu-info-div::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.menu-info-div > h1 {
+  text-shadow: 0 4px 1px rgba(150, 0, 0), 0 10px 50px rgba(255, 0, 0);
+  padding: 20px 0;
+  letter-spacing: 0.2em;
+}
+
+.menu-info-div > h2 {
+  text-decoration: underline;
+  padding: 12px 0;
+  letter-spacing: 0.2em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 6px 0;
 }
