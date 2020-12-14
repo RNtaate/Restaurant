@@ -2,7 +2,7 @@
 
 ## Project Description
 
-This project is a simple restaurant homepage designed to demonstrate my understanding of the fundamentals and concepts of ECMAScript6(ES6), Node Package Manager(npm) and Webpack.
+This project is a simple restaurant homepage designed to demonstrate my understanding of the fundamentals and concepts of ECMAScript 6(ES6), Node Package Manager(npm) and Webpack.
 
 It involves practicing DOM manipulation to dynamically render the page by using Javascript alone to generate the entire contents of the website.
 
@@ -25,7 +25,7 @@ The project has 3 tabs, each displaying different contents about the restaurant.
 
 ## 🔴 Live Demo
 
-**Coming soon**
+[Restaurant Page](https://rntaate.github.io/Restaurant/dist/index.html)
 
 ## Get started
 ### Prerequisites
