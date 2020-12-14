@@ -14,7 +14,7 @@ The project has 3 tabs, each displaying different contents about the restaurant.
 ![](images/screen_rest2.png)
 ![](images/screen_rest3.png)
 
-## Built with
+##  🔧 Built with
 
 - HTML5
 
@@ -23,7 +23,7 @@ The project has 3 tabs, each displaying different contents about the restaurant.
 - Node Package Manager (npm)
 - Webpack
 
-## Live Demo
+## 🔴 Live Demo
 
 **Coming soon**
 
@@ -38,9 +38,11 @@ The project has 3 tabs, each displaying different contents about the restaurant.
 
 1. Run `npm install` to install all the necessary dependencies.
 
+1. Run `npm run build`
+
 1. Open the `index.html` file in your favorite browser, or copy its file path and paste it in your favorite browser.
 
-## Contributions
+## 🤝 Contributions
   There are two ways of contributing to this project:
 
 1. If you see something wrong or not working, please check [the issue tracker section](https://github.com/RNtaate/Restaurant/issues), if that problem you met is not in already opened issues then open the issue by clicking on `new issue` button.
@@ -55,7 +57,7 @@ The project has 3 tabs, each displaying different contents about the restaurant.
     1.  Commit and push the branch you created
     1.  Raise a pull request, comparing your new created branch with our original master branch [here](https://github.com/RNtaate/Restaurant)
 
-## Authors
+## ✒️  Authors
 
 👤 **Roy Ntaate**
 
