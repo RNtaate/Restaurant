@@ -35,7 +35,7 @@ const myTabs = document.getElementsByClassName('tab-button');
 
 // create displayTabContent function for displaying content upon clicking a specific tab
 
-function displayTabContent(event) {
+const displayTabContent = (event) => {
   const tabs = document.getElementsByClassName('tab-button');
   for (let j = 0; j < tabs.length; j += 1) {
     tabs[j].classList.remove('active');
@@ -56,7 +56,7 @@ function displayTabContent(event) {
       break;
     default:
   }
-}
+};
 
 // Add functionality to the tabs using function "displayTabs"
 

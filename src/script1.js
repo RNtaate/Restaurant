@@ -1,4 +1,4 @@
-function loadInitialPage(title, myCaption = '') {
+const loadInitialPage = (title, myCaption = '') => {
   const infoDiv = document.createElement('div');
   infoDiv.classList.add('info-div');
 
@@ -12,6 +12,6 @@ function loadInitialPage(title, myCaption = '') {
   infoDiv.appendChild(paragraph);
 
   return infoDiv;
-}
+};
 
 export default loadInitialPage;
