@@ -1,12 +1,15 @@
 # Restaurant
 
+![Linters](https://github.com/RNtaate/Web_Scraper/workflows/Linters/badge.svg)
+[![GitHub Pull Requests](https://img.shields.io/badge/GitHub-Pull%20Requests-blue)]()
+
 ## Project Description
 
-This project is a simple restaurant homepage designed to demonstrate my understanding of the fundamentals and concepts of ECMAScript 6(ES6), Node Package Manager(npm) and Webpack.
+> This project is a simple restaurant homepage designed to demonstrate my understanding of the fundamentals and concepts of ECMAScript 6(ES6), Node Package Manager(npm) and Webpack.
 
-It involves practicing DOM manipulation to dynamically render the page by using Javascript alone to generate the entire contents of the website.
+> It involves practicing DOM manipulation to dynamically render the page by using Javascript alone to generate the entire contents of the website.
 
-The project has 3 tabs, each displaying different contents about the restaurant.
+> The project has 3 tabs, each displaying different contents about the restaurant.
 
 ### Screenshots
 
